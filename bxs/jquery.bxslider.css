@@ -17,15 +17,14 @@
 .bx-wrapper {
 	padding: 0;
 	*zoom: 1;
- 	overflow: hidden;
  	height: 100%;
  	width: auto;
 }
 
 .bx-wrapper img {
- 	min-height: 100%;
+ 	max-height: 100%;
  	width: auto;
-	display: block;
+	display: table;
 }
 
 /** THEME
