@@ -235,13 +235,7 @@ transition: 0.5s;
   transform: rotate(90deg);
 }
 
-.image img{
-  display: cover center;
-  min-height: 100%;
-  min-width: 100%;
-  overflow: hidden;
 
-}
 
 
 /*IPAD Portrat*/
