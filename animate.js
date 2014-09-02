@@ -24,6 +24,13 @@ $(document).ready(function () {
     });
 
 
+    $("#knapVenstre").click(function () {
+        $('#BusyBox4').removeClass('active');
+    });
+
+    $("#knapHojre").click(function () {
+        $('#BusyBox3').removeClass('active');
+    });
 
 // $("#knapBund").click(function () {
 //         if($('#knapBund').hasClass('activeKnap')) {
