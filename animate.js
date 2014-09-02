@@ -26,10 +26,12 @@ $(document).ready(function () {
 
     $("#knapVenstre").click(function () {
         $('#BusyBox4').removeClass('active');
+        $("#knapHojre").removeClass('activeKnap');
     });
 
     $("#knapHojre").click(function () {
         $('#BusyBox3').removeClass('active');
+        $("#knapVenstre").removeClass('activeKnap');
     });
 
 // $("#knapBund").click(function () {
