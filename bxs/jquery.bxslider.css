@@ -23,7 +23,7 @@
 }
 
 .bx-wrapper img {
- 	height: 100%;
+ 	min-height: 100%;
  	width: auto;
 	display: block;
 }
