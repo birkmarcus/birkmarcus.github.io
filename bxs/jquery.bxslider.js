@@ -27,7 +27,7 @@
 		captions: false,
 		ticker: false,
 		tickerHover: false,
-		adaptiveHeight: false,
+		adaptiveHeight: true,
 		adaptiveHeightSpeed: 1,
 		video: false,
 		useCSS: true,

@@ -19,6 +19,7 @@
 	*zoom: 1;
  	overflow: hidden;
  	height: 100%;
+ 	width: auto;
 }
 
 .bx-wrapper img {
