@@ -19,7 +19,7 @@
 	padding: 0;
 	*zoom: 1;
  	overflow: hidden;
- 	min-height: auto;
+ 	height: 100%;
 }
 
 .bx-wrapper img {
