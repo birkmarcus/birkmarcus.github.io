@@ -18,13 +18,13 @@
 	padding: 0;
 	*zoom: 1;
  	height: 100%;
- 	width: auto;
+ 	min-width: 100%;
+ 	display: inline-block;
 }
 
 .bx-wrapper img {
  	max-height: 100%;
- 	width: auto;
-	display: table;
+ 	min-width: 100%;
 }
 
 /** THEME
@@ -33,8 +33,8 @@
 .bx-wrapper .bx-viewport {
 	
 	background: #fff;
+	display: block;
   	overflow: hidden;
-	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
