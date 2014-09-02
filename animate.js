@@ -62,7 +62,7 @@ $('.bxslider').bxSlider({});
   
 
 //Z-index
-/*
+
   maxZ = $('div:last').css("zIndex");
 $("#knapTop").click(function()
     {
@@ -94,6 +94,5 @@ $("#knapHojre").click(function()
       $('#BusyBox4').css('z-index',maxZ);           
     }
 );
-*/
 
 
