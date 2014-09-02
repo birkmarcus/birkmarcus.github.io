@@ -15,7 +15,6 @@
 ===================================*/
 
 .bx-wrapper {
-	margin: auto auto;
 	padding: 0;
 	*zoom: 1;
  	overflow: hidden;
@@ -23,10 +22,8 @@
 }
 
 .bx-wrapper img {
-	margin: auto auto; 
- 	height: 100%;
+ 	min-height: 100%;
  	width: auto;
-	
 	display: block;
 }
 
