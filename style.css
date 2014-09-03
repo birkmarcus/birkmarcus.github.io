@@ -143,7 +143,7 @@ transition: 0.5s;
   left: 50%;
   width: 22px;
   height: 20px;
-  background-image:url('https://dl.dropboxusercontent.com/u/2621877/menusprite.png');
+  background-image:url('ico/menusprite.png');
   background-position: 0,0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
