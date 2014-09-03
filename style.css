@@ -150,7 +150,6 @@ transition: 0.5s;
 }
 
 #knapTop.activeKnap{
-  background-image:url('https://dl.dropboxusercontent.com/u/2621877/menusprite.png');
   width: 17px;
   height: 17px;
   margin-left: -8.5px;
@@ -176,7 +175,6 @@ transition: 0.5s;
 }
 
 #knapBund.activeKnap{
-  background-image:url('https://dl.dropboxusercontent.com/u/2621877/menusprite.png');
   width: 17px;
   height: 17px;
   margin-left: -8.5px;
@@ -202,7 +200,6 @@ transition: 0.5s;
 }
 
 #knapVenstre.activeKnap{
-  background-image:url('https://dl.dropboxusercontent.com/u/2621877/menusprite.png');
   width: 17px;
   height: 17px;
   background-position: 17px,0;
@@ -227,7 +224,6 @@ transition: 0.5s;
 }
 
 #knapHojre.activeKnap{
-  background-image:url('https://dl.dropboxusercontent.com/u/2621877/menusprite.png');
   width: 17px;
   height: 17px;
   background-position: 17px,0;
