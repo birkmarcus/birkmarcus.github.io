@@ -263,6 +263,17 @@ transition: 0.5s;
   background: url('billeder/gif1.gif');
 }
 
+#img6{
+  background: url('billeder/5.jpg');
+}
+#img7{
+  background: url('billeder/8.jpg');
+}
+
+#img8{
+  background: url('billeder/22.jpg');
+}
+
 
 /*IPAD Portrat*/
 @media only screen and (device-width : 768px){
