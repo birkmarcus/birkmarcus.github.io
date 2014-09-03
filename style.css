@@ -239,6 +239,7 @@ body{
   background: url('/ico/loader.gif');
   background-size: 100%;
   background-repeat: repeat;
+  background-color: #fff;
 }
 
 .sliderImage{
