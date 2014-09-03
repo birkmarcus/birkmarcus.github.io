@@ -235,17 +235,21 @@ transition: 0.5s;
   transform: rotate(90deg);
 }
 
+body{
+  background: url('/ico/loader.gif');
+  background-size: 100%;
+  background-repeat: repeat;
+}
 
 .sliderImage{
-  background-position: top left;
-  background-repeat: repeat-x;
+  background-position: center center;
+  background-repeat: no-repeat;
   height: 1000px;
   width:100%;
 }
 
 #img1{
   background: url('billeder/15.jpg');
-
 }
 
 #img2{
@@ -272,6 +276,10 @@ transition: 0.5s;
 
 #img8{
   background: url('billeder/22.jpg');
+}
+
+#img8{
+  background: url('billeder/gif3.gif');
 }
 
 
