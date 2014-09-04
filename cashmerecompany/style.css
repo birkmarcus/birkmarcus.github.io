@@ -59,7 +59,7 @@ table {
 
 .wrapper-forside{
 	height: 9526px;
-		background-image: url('forside.jpg');
+	background-image: url('forside.jpg');
 	background-position:  center;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -68,7 +68,7 @@ table {
 
 .wrapper-GarnMerker{
 	height: 5550px;
-		background-image: url('garnm.jpg');
+	background-image: url('garnm.jpg');
 	background-position:  center;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -77,7 +77,7 @@ table {
 
 .wrapper-GarnValg{
 	height: 3550px;
-		background-image: url('garnvalg.jpg');
+	background-image: url('garnvalg.jpg');
 	background-position:  center;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -86,7 +86,7 @@ table {
 
 .wrapper-boger{
 	height: 3925px;
-		background-image: url('boger.jpg');
+	background-image: url('boger.jpg');
 	background-position:  center;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -95,7 +95,7 @@ table {
 
 .wrapper-bog{
 	height: 4375px;
-		background-image: url('bog.jpg');
+	background-image: url('bog.jpg');
 	background-position:  center;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -104,7 +104,16 @@ table {
 
 .wrapper-strikkeKits{
 	height: 4550px;
-		background-image: url('strikkekits.jpg');
+	background-image: url('strikkekits.jpg');
+	background-position:  center;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #f8f1e1;
+}
+
+.wrapper-arrangementer{
+	height: 4852px;
+	background-image: url('arrangementer.jpg');
 	background-position:  center;
 	background-position: top;
 	background-repeat: no-repeat;
