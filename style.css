@@ -442,9 +442,16 @@ display: table;
 /*Media Query end */
   
 }
+/*MediaQuery Mobile iphone4  Lamndscape*/
+@media only screen and (device-width : 568px){
 
-
-/*MediaQuery Mobile iphone4*/
+.bx-wrapper img{
+  overflow: scroll;
+  max-width: 100%;
+  height: auto !important;
+}
+}
+/*MediaQuery Mobile iphone5*/
 
 @media only screen and (device-width : 320px){
 
@@ -531,5 +538,4 @@ display: table;
   max-width: 100%;
   height: auto !important;
   margin-top: 33%;
-
 }
