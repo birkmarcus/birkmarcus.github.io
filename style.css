@@ -506,8 +506,8 @@ z-index: 999;
 
 .knap{
   zoom:3;
-  padding: 10px;
-  z-index: 997;
+  
+  z-index: 999;
 }
 
 
