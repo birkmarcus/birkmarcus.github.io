@@ -162,6 +162,7 @@ z-index: 997;
   cursor: pointer;
   font-size: 1em;
   z-index: 9999;
+  zoom:2;
   
 }
 #knapTop{
