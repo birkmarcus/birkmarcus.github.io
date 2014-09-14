@@ -45,8 +45,6 @@ $('.bxslider').bxSlider({});
   function setHeight() {
     windowHeight = $(window).innerHeight();
     $('.sliderImageFull').css('height', windowHeight+'px');
-      };
-  setHeight();
     $('.sliderImage').css('background-size', 'auto '+windowHeight/2+'px');
   };
   setHeight();
