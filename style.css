@@ -334,6 +334,13 @@ z-index: 997;
   background: url('billeder/17.jpg');
 }
 
+#d1{
+  background: url('billeder/d1.jpg');
+}
+
+#d2{
+  background: url('billeder/d2.jpg');
+}
 
 /*IPAD Landscape*/
 @media only screen and (device-width : 1024px){
