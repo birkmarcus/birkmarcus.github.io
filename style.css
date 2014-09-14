@@ -443,93 +443,7 @@ display: table;
   
 }
 /*MediaQuery Mobile iphone5  Lamndscape*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
 
-
-p{
-  font-size: 1.2em;
-  line-height: 1.5em;
-  padding: 55px;
-  padding-top: 30px;
-}
-
-#BusyBox3{
-position: fixed;
-left: -100%;
-font-style: normal;
-font-weight: normal;
-text-align: center;
-height: 100%;
-width: 100%;
-overflow: scroll;
-background-color: #98dbce;
--webkit-transition: 0.5s;
--o-transition: 0.5s;
-transition: 0.5s;
-z-index: 998;
-}
-
-#BusyBox3.active {
-  left:0px;
-}
-
-#BusyBox4{
-position: fixed;
-right: -100%;
-text-align: center;
-height: 100%;
-width: 100%;
-padding: 0;
-margin: 0;
-overflow: scroll;
-opacity: 1;
-background-color: #98dbce;
--webkit-transition: 0.5s;
--o-transition: 0.5s;
-transition: 0.5s;
-z-index: 999;
-}
-
-#older{
-  position: fixed;
-  z-index: 899;
-  line-height: 120px;
-  margin-top: -25px;
-  margin-left: -105px;
-  text-align: center;
-  width: 200px;
-  top: 50%;
-  left: 50%;
-}
-
-.knap{
-  zoom:2;
-}
-
-
-.sliderImageFull img{
-  display: block;
-margin-left: auto;
-margin-right: auto;
-
-}
-.wrapperFull img{
-display: block;
-margin-left: auto;
-margin-right: auto;
-display: table;
-}
-.bx-wrapper{
-  display: table-cell;
-  vertical-align: middle;
-
-}
-.bx-wrapper img{
-  overflow: scroll;
-  max-width: 100%;
-  height: auto !important;
-}
-}
 /*MediaQuery Mobile iphone5*/
 
 @media only screen and (device-width : 320px){
@@ -617,4 +531,17 @@ display: table;
   max-width: 100%;
   height: auto !important;
   margin-top: 33%;
+}
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
+
+
+
+.bx-wrapper img{
+  overflow: scroll;
+  max-width: 100%;
+  height: auto !important;
+}
 }
