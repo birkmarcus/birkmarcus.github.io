@@ -452,7 +452,24 @@ display: table;
 .bx-wrapper img{
   overflow: scroll;
   max-width: 100%;
-  height: auto !important;
+}
+
+.sliderImageFull img{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.wrapperFull img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+display: table;
+}
+.bx-wrapper{
+  display: table-cell;
+  vertical-align: middle;
+
 }
 
 .knap{
