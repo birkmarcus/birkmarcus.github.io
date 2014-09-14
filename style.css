@@ -442,40 +442,7 @@ display: table;
 /*Media Query end */
   
 }
-/*MediaQuery Mobile iphone5  Lamndscape*/
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
-
-
-
-.bx-wrapper img{
-  overflow: scroll;
-  max-width: 100%;
-}
-
-.sliderImageFull img{
-  display: block;
-margin-left: auto;
-margin-right: auto;
-
-}
-.wrapperFull img{
-display: block;
-margin-left: auto;
-margin-right: auto;
-display: table;
-}
-.bx-wrapper{
-  display: table-cell;
-  vertical-align: middle;
-
-}
-
-.knap{
-  zoom:3;
-}
-}
 
 /*MediaQuery Mobile iphone5*/
 
