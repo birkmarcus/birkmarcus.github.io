@@ -449,8 +449,8 @@ display: table;
 @media only screen and (device-width : 320px){
 
 p{
-  font-size: 0.75em;
-  line-height: 1.2em;
+  font-size: 1.2em;
+  line-height: 1.5em;
   padding: 55px;
   padding-top: 30px;
 }
@@ -530,6 +530,6 @@ display: table;
   overflow: scroll;
   max-width: 100%;
   height: auto !important;
-  margin-top: 50%;
+  margin-top: 33%;
 
 }
