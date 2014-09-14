@@ -242,48 +242,48 @@ transition: 0.5s;
 }
 
 #img1{
-  background: url('older1.jpg');
+  background: url('billeder/older1.jpg');
 }
 
 #img2{
-  background: url('older2.jpg');
+  background: url('billeder/older2.jpg');
 }
 
 #img3{
-  background: url('older3.jpg');
+  background: url('billeder/older3.jpg');
 }
 
 #img4{
-  background: url('older4.jpg');
+  background: url('billeder/older4.jpg');
 }
 #img5{
-  background: url('older5.jpg');
+  background: url('billeder/older5.jpg');
 }
 
 #img6{
-  background: url('older6.jpg');
+  background: url('billeder/older6.jpg');
 }
 #img7{
-  background: url('older7.jpg');
+  background: url('billeder/older7.jpg');
 }
 
 #img8{
-  background: url('older8.jpg');
+  background: url('billeder/older8.jpg');
 }
 
 #img9{
-  background: url('older9.jpg');
+  background: url('billeder/older9.jpg');
 }
 
 #img10{
-  background: url('older10.jpg');
+  background: url('billeder/older10.jpg');
 }
 
 #img11{
-  background: url('older11.jpg');
+  background: url('billeder/older11.jpg');
 }
 #img12{
-  background: url('older12.jpg');
+  background: url('billeder/older12.jpg');
 }
 
 #img13{
@@ -337,7 +337,7 @@ background-color: #98dbce;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
-z-index: 30;
+z-index: 100;
 }
 
 #BusyBox3.active {
@@ -361,7 +361,7 @@ background-color: #ff4949;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
-z-index: 40;
+z-index: 110;
 }
 
 #BusyBox4.active {
