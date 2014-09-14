@@ -447,7 +447,7 @@ display: table;
 
 /*MediaQuery Mobile iphone5*/
 /*portrait*/
-@media only screen and (device-width : 320px){
+@media only screen and (device-width : 640px){
 
 p{
   font-size: 1em;
