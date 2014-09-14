@@ -31,7 +31,7 @@ p{
 
 #older{
   position: fixed;
-  z-index: 10;
+  z-index: 9999;
   line-height: 120px;
   margin-top: -100px;
   margin-left: -150px;
@@ -51,6 +51,7 @@ opacity: 1;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
+z-index: 800;
 }
 
 #BusyBox1.active {
@@ -78,6 +79,7 @@ opacity: 1;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
+z-index: 850;
 }
 
 #BusyBox2.active {
@@ -97,6 +99,7 @@ background-color: #92f2df;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
+z-index: 1000
 }
 
 #BusyBox3.active {
@@ -116,12 +119,41 @@ background-color: #92f2df;
 -webkit-transition: 0.5s;
 -o-transition: 0.5s;
 transition: 0.5s;
+z-index: 1000;
 }
 
 #BusyBox4.active {
   right:0px;
 }
 
+.wrapperFull{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+  margin: 0;
+  z-index: 10;
+  overflow: hidden;
+  text-align: center;
+}
+
+.boxStyleFull{
+  width: auto;
+  height: 100%;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.sliderImageFull{
+  width:100%;
+  
+  z-index: 10;
+  text-align: center;
+}
+.sliderImageFull img{
+  
+}
 
 .boxStyle{
   overflow: hidden;
@@ -134,7 +166,7 @@ transition: 0.5s;
   display: block;
   cursor: pointer;
   font-size: 1em;
-  z-index: 1000;
+  z-index: 9999;
   
 }
 #knapTop{
@@ -241,75 +273,48 @@ transition: 0.5s;
   width:100%;
 }
 
+
+
+
+
 #img1{
-  background: url('billeder/campagne1.jpg');
+  background: url('billeder/1.jpg');
 }
 
 #img2{
-  background: url('billeder/campagne2.jpg');
+  background: url('billeder/2.jpg');
 }
 
 #img3{
-  background: url('billeder/campagne3.jpg');
+  background: url('billeder/3.jpg');
 }
 
 #img4{
-  background: url('billeder/campagne4.jpg');
+  background: url('billeder/4.jpg');
 }
 #img5{
-  background: url('billeder/campagne5.jpg');
+  background: url('billeder/5.jpeg');
 }
 
 #img6{
-  background: url('billeder/campagne6.jpg');
+  background: url('billeder/6.jpg');
 }
 #img7{
-  background: url('billeder/campagne7.jpg');
+  background: url('billeder/7.jpg');
 }
 
 #img8{
-  background: url('billeder/campagne8.jpg');
+  background: url('billeder/8.jpg');
 }
 
 #img9{
-  background: url('billeder/campagne9.jpg');
+  background: url('billeder/c1.jpg');
 }
-
 #img10{
-  background: url('billeder/campagne10.jpg');
+  background: url('billeder/c2.jpg');
 }
-
-#img11{
-  background: url('billeder/campagne11.jpg');
-}
-#img12{
-  background: url('billeder/campagne12.jpg');
-}
-
-#img13{
-  background: url('billeder/older-gif-02.gif');
-}
-
-#img14{
-  background: url('billeder/14.jpg');
-}
-
-#img15{
-  background: url('billeder/13.jpg');
-}
-
-#img16{
-  background: url('billeder/gif2.gif');
-}
-#img17{
-  background: url('billeder/gif1.gif');
-}
-
-#img18{
-  background: url('billeder/5.jpg');
-}
-#img19{
-  background: url('billeder/older-gif-01.gif');
+#img10{
+  background: url('billeder/c3.jpg');
 }
 
 
