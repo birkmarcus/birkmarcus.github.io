@@ -242,32 +242,75 @@ transition: 0.5s;
 }
 
 #img1{
-  background: url('billeder/older-gif-02.gif');
+  background: url('older1.jpg');
 }
 
 #img2{
-  background: url('billeder/14.jpg');
+  background: url('older2.jpg');
 }
 
 #img3{
-  background: url('billeder/13.jpg');
+  background: url('older3.jpg');
 }
 
 #img4{
-  background: url('billeder/gif2.gif');
+  background: url('older4.jpg');
 }
 #img5{
-  background: url('billeder/gif1.gif');
+  background: url('older5.jpg');
 }
 
 #img6{
-  background: url('billeder/5.jpg');
+  background: url('older6.jpg');
 }
 #img7{
-  background: url('billeder/older-gif-01.gif');
+  background: url('older7.jpg');
 }
 
+#img8{
+  background: url('older8.jpg');
+}
 
+#img9{
+  background: url('older9.jpg');
+}
+
+#img10{
+  background: url('older10.jpg');
+}
+
+#img11{
+  background: url('older11.jpg');
+}
+#img12{
+  background: url('older12.jpg');
+}
+
+#img13{
+  background: url('billeder/older-gif-02.gif');
+}
+
+#img14{
+  background: url('billeder/14.jpg');
+}
+
+#img15{
+  background: url('billeder/13.jpg');
+}
+
+#img16{
+  background: url('billeder/gif2.gif');
+}
+#img17{
+  background: url('billeder/gif1.gif');
+}
+
+#img18{
+  background: url('billeder/5.jpg');
+}
+#img19{
+  background: url('billeder/older-gif-01.gif');
+}
 
 
 
