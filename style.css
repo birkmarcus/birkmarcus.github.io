@@ -444,6 +444,22 @@ display: table;
 }
 /*MediaQuery Mobile iphone5  Lamndscape*/
 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
+
+
+
+.bx-wrapper img{
+  overflow: scroll;
+  max-width: 100%;
+  height: auto !important;
+}
+
+.knap{
+  zoom:3;
+}
+}
+
 /*MediaQuery Mobile iphone5*/
 
 @media only screen and (device-width : 320px){
@@ -535,13 +551,3 @@ display: table;
 }
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
-
-
-
-.bx-wrapper img{
-  overflow: scroll;
-  max-width: 100%;
-  height: auto !important;
-}
-}
