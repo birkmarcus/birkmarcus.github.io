@@ -416,7 +416,7 @@ p{
     letter-spacing: 1.5px;
   }
 }
-a:link, a:hover, a:active{
+a, a:link, a:hover, a:active, a:visited{
   color: #000;
   text-decoration: none;
 }
