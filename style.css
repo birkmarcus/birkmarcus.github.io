@@ -443,7 +443,7 @@ display: table;
   
 }
 /*MediaQuery Mobile iphone5  Lamndscape*/
-@media only screen and (device-width : 568px){
+@media only screen and (max-device-width : 568px){
 
 
 p{
